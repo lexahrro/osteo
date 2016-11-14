@@ -15,20 +15,12 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/ytresponsive.js"></script>
-    <script type="text/javascript" src="js/percircle.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $("[id$='circle']").percircle();
-        });
-    </script>
-    <link rel="stylesheet" href="css/percircle.css">
 </head>
 
 <body>
 
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav id="fixed" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -41,9 +33,6 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="#conhead" href="#">Accueil</a>
-                    </li>
                     <li>
                         <a href="#section2">Présentation</a>
                     </li>

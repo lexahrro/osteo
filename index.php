@@ -1,7 +1,7 @@
 <?php require 'header.php' ?>
 
-    <!-- Header sous menu -->
-
+    <!--- Header sous menu ---->
+<section id="sec" class="sec">
     <div id="conhead" class="container-fluid conhead">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -17,9 +17,9 @@
         </div>
     </div>
 </header>
-
-<section id="section2" class="section2 section-margin">
-    <div class="container">
+</section>
+<section id="section2" class="section2 section-margin" data-midnight="black">
+        <div class="container">
         <div class="row">
             <div class="col-md-6 text-center">
                 <div class="profil_pic1">
@@ -39,7 +39,7 @@
 </section>
 
 <!-- Content Section -->
-<section id="section3" class="section3 section-margin hideme">
+<section id="section3" class="section3 section-margin hideme" data-midnight="white">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -48,25 +48,37 @@
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 text-center">
-                <i class="fa fa-eur" aria-hidden="true"></i>
-                <h3>EURO</h3>
+        <div class="row rowspe">
+            <div class="col-md-4 text-center">
+                <img class="img-responsive imgcenter" src="img/bebe.png" alt="">
+                <h3>NOURISSONS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col-md-3 text-center">
-                <i class="fa fa-usd" aria-hidden="true"></i>
-                <h3>DOLLAR</h3>
+            <div class="col-md-4 text-center">
+                <img class="img-responsive imgcenter" src="img/enfant.png" alt="">
+                <h3>ENFANTS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col-md-3 text-center">
-                <i class="fa fa-btc" aria-hidden="true"></i>
-                <h3>BITCOIN</h3>
+            <div class="col-md-4 text-center">
+                <img class="img-responsive imgcenter" src="img/enceinte.png" alt="">
+                <h3>FEMMES ENCEINTES</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col-md-3 text-center">
-                <i class="fa fa-gbp" aria-hidden="true"></i>
-                <h3>GBP</h3>
+        </div>
+        <div class="row rowspe">
+            <div class="col-md-4 text-center">
+                <img class="img-responsive imgcenter" src="img/homme.png" alt="">
+                <h3>ADULTES</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img class="img-responsive imgcenter" src="img/sportif.png" alt="">
+                <h3>SPORTIFS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img class="img-responsive imgcenter" src="img/age.png" alt="">
+                <h3>SENIORS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
@@ -202,14 +214,19 @@ $(document).ready(function() {
 
 });</script>
 
-<script type="text/javascript">
-    $(function(){
-        $("[id$='circle']").percircle();
+
+
+
+<script type="text/javascript" src="js/midnight.jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+
+        // Change this to the correct selector.
+
+        $('nav#fixed').midnight();
+
     });
 </script>
-
-
-
 
 </body>
 
