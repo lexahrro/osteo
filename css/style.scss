@@ -189,6 +189,15 @@ p {
   background-color: #e7f1f8;
 }
 
+.profil_pic {
+  width: 60%;
+      border: 12px solid  #F0FFFF;
+    max-width: 85%;
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+
+}
 
 .fade-left{
   -webkit-animation: anim-left 3s; /* Safari 4+ */
