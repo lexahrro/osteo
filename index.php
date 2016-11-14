@@ -1,6 +1,6 @@
 <?php require 'header.php' ?>
 
-    <!---- Header sous menu ----->
+    <!--- Header sous menu ---->
 <section id="sec" class="sec">
     <div id="conhead" class="container-fluid conhead">
         <div class="row">
@@ -21,32 +21,18 @@
 <section id="section2" class="section2 section-margin" data-midnight="black">
         <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="section-heading">WEBSITE</h1>
-                <hr class="blackhr">
-                <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="col-md-6 text-center">
+                <div class="profil_pic1">
+                    <img src="img/AT.jpg" alt="AT" class="img-responsive">
+                </div>      <!-- Définition de l'Ostéopathie -->
+                    <p class="histoire">L’ostéopathie est une méthode de soin apparue peu avant 1900 en Amérique du Nord sous l’impulsion d’Andrew Taylor Still. Depuis, cette médecine manuelle, qui concerne tous les âges, a connu un développement constant. Apparue en France au milieu du 20éme siècle, elle n'a jamais cessé de se diffuser. Elle a été légiférée par la loi du 4 mars 2002 relative aux droits des patients et à la qualité du système de santé. L'ostéopathie est une méthode de soin reconnue qui ne peut être pratiquée que par un praticien ayant obtenu un diplôme d'un organisme agréé par le Ministère de la Santé. </p> 
             </div>
-        </div>
-        <div class="row fade4col">
-            <div class="col-md-3 text-center fade-left">
-                <img class="img-responsive imgcenter" src="img/branding.png" alt="">
-                <h3>BRANDING</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-md-3 text-center fade-left">
-                <img class="img-responsive imgcenter" src="img/design.png" alt="">
-                <h3>DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-md-3 text-center fade-right">
-                <img class="img-responsive imgcenter" src="img/flat.png" alt="">
-                <h3>FLAT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-md-3 text-center fade-right">
-                <img class="img-responsive imgcenter" src="img/responsive.png" alt="">
-                <h3>RESPONSIVE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="col-md-6 text-center">
+                <div class="profil_pic2">
+                    <img src="img/Ac.jpg" alt="AC" class="img-responsive" >
+                </div>     <!-- Présentation de l'Ostéopathe -->
+                    <p class="histoire">Ouloulou</p> 
             </div>
         </div>
     </div>
