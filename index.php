@@ -63,24 +63,36 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 text-center">
+            <div class="col-md-4 text-center">
                 <i class="fa fa-eur" aria-hidden="true"></i>
-                <h3>EURO</h3>
+                <h3>NOURISSONS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-md-4 text-center">
                 <i class="fa fa-usd" aria-hidden="true"></i>
-                <h3>DOLLAR</h3>
+                <h3>ENFANTS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-md-4 text-center">
                 <i class="fa fa-btc" aria-hidden="true"></i>
-                <h3>BITCOIN</h3>
+                <h3>FEMMES ENCEINTES</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col-md-3 text-center">
-                <i class="fa fa-gbp" aria-hidden="true"></i>
-                <h3>GBP</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fa fa-eur" aria-hidden="true"></i>
+                <h3>ADULTES</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-usd" aria-hidden="true"></i>
+                <h3>SPORTIFS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-btc" aria-hidden="true"></i>
+                <h3>SENIORS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
