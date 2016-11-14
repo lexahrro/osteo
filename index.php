@@ -105,7 +105,7 @@
 <!-- Content Section -->
 <div class="parallax1">
     <div class="conparallax">
-<section id="section4" class="section4 section-margin hideme">
+<section id="section4" class="section4 section-margin hideme" data-midnight="white">
     <div class="container">
 
         <div class="row text-center">
