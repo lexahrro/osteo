@@ -20,19 +20,13 @@
 </section>
 <section id="section2" class="section2 section-margin" data-midnight="black">
         <div class="container">
+            <h2 class="definition">Qu'est ce que l'ostéopathie ?</h2>
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-sm-12 text-center">
                 <div class="profil_pic1">
-                    <img src="img/AT.jpg" alt="AT" class="img-responsive">
+                    <p class="histoire">L'ostéopathie est une méthode de soins curative et préventive qui s'emploie à déterminer et à traiter les restrictions de mobilité qui peuvent affecter l'ensemble des structures composant le corps humain. Toute perte de mobilité des différents systèmes fonctionnels peut provoquer un déséquilibre de l'état de santé. Ainsi que des difficultés a s'adapter de manière optimal a son environnement extérieur." </p> 
                 </div>      <!-- Définition de l'Ostéopathie -->
-                    <p class="histoire">L’ostéopathie est une méthode de soin apparue peu avant 1900 en Amérique du Nord sous l’impulsion d’Andrew Taylor Still. Depuis, cette médecine manuelle, qui concerne tous les âges, a connu un développement constant. Apparue en France au milieu du 20éme siècle, elle n'a jamais cessé de se diffuser. Elle a été légiférée par la loi du 4 mars 2002 relative aux droits des patients et à la qualité du système de santé. L'ostéopathie est une méthode de soin reconnue qui ne peut être pratiquée que par un praticien ayant obtenu un diplôme d'un organisme agréé par le Ministère de la Santé. </p> 
-            </div>
-
-            <div class="col-md-6 text-center">
-                <div class="profil_pic2">
-                    <img src="img/Ac.jpg" alt="AC" class="img-responsive" >
-                </div>     <!-- Présentation de l'Ostéopathe -->
-                    <p class="histoire">Ouloulou</p> 
+                    
             </div>
         </div>
     </div>
@@ -43,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading">MONEY</h1>
+                <h1 class="section-heading">DOMAINES</h1>
                 <hr class="blackhr">
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
@@ -163,23 +157,17 @@
             </div>
         </div>
         <div class="row social">
-            <div class="col-md-2 col-sm-2 col-xs-4 text-center">
+            <div class="col-md-3 col-sm-3 col-xs-6 text-center">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-4 text-center">
+            <div class="col-md-3 col-sm-3 col-xs-6 text-center">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-4 text-center">
+            <div class="col-md-3 col-sm-3 col-xs-6 text-center">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </div>
-            <div class="col-md-2 col-sm-2 col-xs-4 text-center">
+            <div class="col-md-3 col-sm-3 col-xs-6 text-center">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-                <i class="fa fa-dribbble" aria-hidden="true"></i>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-                <i class="fa fa-git" aria-hidden="true"></i>
             </div>
         </div>
     </div>
