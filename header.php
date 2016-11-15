@@ -16,9 +16,107 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD62tC0fMed6qZPskVFy9PS8SL-4ByYr38"></script>
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/wow.js"></script>
+
+    <script type="text/javascript">
+
+        // Create and Initialise the Map (required) our google map below
+
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+
+            var mapOptions = {
+
+                // How zoomed in you want the map to start at (always required)
+
+                zoom: 17,
+                scrollwheel: false,
+                // The latitude and longitude to center the map (always required)
+
+                center: new google.maps.LatLng(48.89585, 2.2364), // Nova Scotia
+
+                // How you would like to style the map.
+                // This is where you would paste any style found on [Snazzy Maps][1].
+                // copy the Styles from Snazzy maps,  and paste that style info after the word "styles:"
+
+                styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"},{"weight":"0.20"},{"lightness":"28"},{"saturation":"23"},{"visibility":"off"}]},
+                    {"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#494949"},{"lightness":13},{"visibility":"on"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
+                    {"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#144b53"},{"lightness":14},{"weight":1.4}]},
+                    {"featureType":"landscape","elementType":"all","stylers":[{"color":"#1f3652"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#30628f"},{"lightness":5}]},
+                    {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#0b434f"},{"lightness":25}]},
+                    {"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#0b3d51"},{"lightness":16}]},
+                    {"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"transit","elementType":"all","stylers":[{"color":"#146474"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#021019"}]}]
+            };
+
+            var mapElement = document.getElementById('map');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            // Following section, you can create your info window content using html markup
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+                '<div id="bodyContent">'+
+                '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+                'sandstone rock formation in the southern part of the '+
+                'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+                'south west of the nearest large town, Alice Springs; 450&#160;km '+
+                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+                'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+                'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+                'Aboriginal people of the area. It has many springs, waterholes, '+
+                'rock caves and ancient paintings. Uluru is listed as a World '+
+                'Heritage Site.</p>'+
+                '<p>Attribution: Uluru, <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+                'http://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+                '(last visited June 22, 2009).</p>'+
+                '</div>'+
+                '</div>';
+
+
+            // Define the image to use for the map marker (58 x 44 px)
+
+            var image = 'http://uploads.webflow.com/537f700d5bb0a27f34444d0c/53b054015eb95f024f4d7c5e_map_marker.png';
+
+            // Define the Lattitude and Longitude for the map location
+
+            var myLatLng = new google.maps.LatLng(48.89585, 2.2364);
+
+            // Define the map marker characteristics
+
+            var mapMarker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                icon: image,
+                title:  'Frostbyte Interactive'
+
+            });
+
+            // Following Lines are needed if you use the Info Window to display content when map marker is clicked
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            // Following line turns the marker, into a clickable button and when clicked, opens the info window
+
+            google.maps.event.addListener(mapMarker, 'click', function() {
+                infowindow.open(map, mapMarker);
+            });
+
+        }
+
+    </script>
+
     <script>
         new WOW().init();
     </script>

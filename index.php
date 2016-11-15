@@ -191,11 +191,6 @@
             <button class="btn btn-head" type="submit">ENVOI</button>
             </div>
         </div>
-            <div class="row">
-            <div class="col-md-12">
-                <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0254584363715!2d2.23422031567572!3d48.895851979291095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665002d2c6665%3A0x9595552cb384bd7!2sP%C3%B4le+Universitaire+L%C3%A9onard+de+Vinci!5e0!3m2!1sfr!2sfr!4v1475502359120' width='800' height='400' frameborder='0' style='border:0' allowfullscreen></iframe></div>
-            </div>
-            </div>
         </div>
             <br>
         <div class="row">
@@ -203,6 +198,10 @@
 
             </div>
         </div>
+        </div>
+
+    <div id="map" data-midnight="black"></div>
+    <div class="container">
         <div class="row social">
             <div class="col-md-3 col-sm-3 col-xs-6 text-center">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -218,6 +217,19 @@
             </div>
         </div>
     </div>
+        <div class="container-credits">
+        <div class="row row-credits">
+            <div class="col-md-6">
+                <h4 class="credits">Alexandre Herrero - Marwan Diridollou -  2016 <i class="fa fa-copyright" aria-hidden="true" style="font-size: 14px;"></i> - Tous droits réservés</h4>
+            </div>
+            <div class="col-md-6">
+                <a class="btn btn-footer" href="#sec">
+                    <i class="fa fa-chevron-up" style="font-size: 20px;"></i></a>
+            </div>
+        </div>
+    </div>
+
+
 </footer>
 
 
@@ -232,6 +244,9 @@
 
     });
 </script>
+
+
+
 
 
 
