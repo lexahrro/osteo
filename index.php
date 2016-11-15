@@ -5,14 +5,14 @@
     <div id="conhead" class="container-fluid conhead">
         <div class="row">
             <div class="col-md-12 text-center">
-                <a class="link link--ilin logo" href="#"><span>A</span><span>H</span></a>
+                <a class="link link--ilin logo" href="#"><span>A</span><span>C</span></a>
                 <p class="lead section-lead logo"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 text-center logo">
-                <button class="btn btn-head" type="submit">Button</button>
-                <button class="btn btn-head" type="submit">Button</button>
+                <button class="btn btn-head" type="submit">01 41 16 15 15</button>
+                <button class="btn btn-head" type="submit">RDV EN LIGNE</button>
             </div>
         </div>
     </div>
@@ -29,14 +29,35 @@
             </div>
             </div>
             <div class="row rowspe">
-                <div class="col-md-6 text-center">
-                <p class="histoire">L'ostéopathie est une méthode de soins curative et préventive qui s'emploie à déterminer et à traiter les restrictions de mobilité qui peuvent affecter l'ensemble des structures composant le corps humain. Toute perte de mobilité des différents systèmes fonctionnels peut provoquer un déséquilibre de l'état de santé. Ainsi que des difficultés a s'adapter de manière optimal a son environnement extérieur." </p> 
+                <div class="col-md-7">
+                <p class="histoire">Apparue en 1892 aux Etats-Unis l’ostéopathie de Andrew Taylor Still est une thérapie purement manuelle visant à déterminer et traiter les restrictions de mobilité du corps. En effet avec la main comme outil d’analyse et de soin l’ostéopathe recherche l’équilibre physiologique du patient en le prenant en compte dans sa globalité. C’est une science basée sur l’anatomie, la physiologie et la pathologie qui permet de rétablir le bon fonctionnement corporel de l’individu. </p>
                 </div>      <!-- Définition de l'Ostéopathie -->
-                <div class="col-md-6 text-center">
+                <div class="col-md-5 text-center">
                     <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube">
                 </div>      
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                <p>Cette médecine holistique considère l’individu comme un tout fonctionnel (le physique, le mentale et l’esprit) où les différentes structures interagissent entre elles de la cellules aux système organiques.
+                    Il est vrai que l’être humain possède plusieurs corps, un corps physique, un corps éthérique, un corps émotionnel et un corps mental.
+                    Le physique est l’enveloppe permettant de se mouvoir et mener à bien sa vie. Il faut en prendre soin car c’est le seul endroit où l’on est obligés de vivre toute sa vie.
+                    Le corps éthérique ou vital est  le plus dense de nos corps subtils et est constitué de l’énergie vitale (appelé prana dans la culture indienne).
+                    Le corps émotionnel ou affectif est le corps subtil des émotions comme son nom l’indique il permet de ressentir nos joies, peines, désirs, l’amour ou la haine…
+                    Le corps mental situé à l’intérieur de notre corps physique permet quant à lui de réfléchir aux sensations perçues par le corps émotionnel afin de comprendre notre environnement et évolué dans une direction qui nous est propre. Il est lié à notre intellect, notre imaginaire, nos pensées ou encore à l’objectivité.
+                    Il existe encore 3 corps (astral, bouddhique et causal) que je ne décrirai pas ici.
+                </p>
+            </div>
         </div>
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube">
+                </div>
+                <div class="col-md-7">
+                    <p class="histoire">Apparue en 1892 aux Etats-Unis l’ostéopathie de Andrew Taylor Still est une thérapie purement manuelle visant à déterminer et traiter les restrictions de mobilité du corps. En effet avec la main comme outil d’analyse et de soin l’ostéopathe recherche l’équilibre physiologique du patient en le prenant en compte dans sa globalité. C’est une science basée sur l’anatomie, la physiologie et la pathologie qui permet de rétablir le bon fonctionnement corporel de l’individu. </p>
+                </div>      <!-- Définition de l'Ostéopathie -->
+
+            </div>
+            </div>
     </div>
 </section>
 
@@ -158,7 +179,6 @@
             <h1 class="section-heading">HORAIRES ET CONTACT</h1>
             <hr class="whitehr">
             <p class="section-paragraph">Pole Léonard de Vinci - 12 Avenue Léonard de Vinci, 92400 Courbevoie</p>
-            <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0254584363715!2d2.23422031567572!3d48.895851979291095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665002d2c6665%3A0x9595552cb384bd7!2sP%C3%B4le+Universitaire+L%C3%A9onard+de+Vinci!5e0!3m2!1sfr!2sfr!4v1475502359120' width='800' height='400' frameborder='0' style='border:0' allowfullscreen></iframe></div>
         </div>
             <hr class="visible-xs hrmobile">
         <div class="col-md-6">
@@ -171,6 +191,11 @@
             <button class="btn btn-head" type="submit">ENVOI</button>
             </div>
         </div>
+            <div class="row">
+            <div class="col-md-12">
+                <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0254584363715!2d2.23422031567572!3d48.895851979291095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665002d2c6665%3A0x9595552cb384bd7!2sP%C3%B4le+Universitaire+L%C3%A9onard+de+Vinci!5e0!3m2!1sfr!2sfr!4v1475502359120' width='800' height='400' frameborder='0' style='border:0' allowfullscreen></iframe></div>
+            </div>
+            </div>
         </div>
             <br>
         <div class="row">

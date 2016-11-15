@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Intégration</title>
+    <title>Ostéopathie - A. Conduche</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- jQuery -->
     <script src="bootstrap/js/jquery-3.1.0.min.js"></script>
