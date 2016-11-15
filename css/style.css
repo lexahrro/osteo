@@ -187,27 +187,6 @@ p {
   background-color: #e7f1f8;
 }
 
-.definition {
-  margin-top: -20px;
-  margin-bottom: 50px;
-  text-align: center;
-  font-size: 38px;
-  font-weight: 300;
-  letter-spacing: 0.01em;
-  word-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.profil_pic1 {
-  width: 60%;
-  border: 12px solid  #F0FFFF;
-  max-width: 85%;
-  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-5deg);
-  transform: rotate(-5deg);
-  margin-bottom: 20px;
-}
-
 .fade-left {
   -webkit-animation: anim-left 3s;
   /* Safari 4+ */

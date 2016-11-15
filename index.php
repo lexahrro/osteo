@@ -17,16 +17,24 @@
         </div>
     </div>
 </header>
+
+
 </section>
 <section id="section2" class="section2 section-margin" data-midnight="black">
         <div class="container">
-            <h2 class="definition">Qu'est ce que l'ostéopathie ?</h2>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="profil_pic1">
-                    <p class="histoire">L'ostéopathie est une méthode de soins curative et préventive qui s'emploie à déterminer et à traiter les restrictions de mobilité qui peuvent affecter l'ensemble des structures composant le corps humain. Toute perte de mobilité des différents systèmes fonctionnels peut provoquer un déséquilibre de l'état de santé. Ainsi que des difficultés a s'adapter de manière optimal a son environnement extérieur." </p> 
+            <div class="row">
+                 <div class="col-lg-12 text-center">
+                <h1 class="section-heading">QU'EST-CE QUE L'OSTEOPATHIE ?</h1>
+                <hr class="blackhr">
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                <p class="histoire">L'ostéopathie est une méthode de soins curative et préventive qui s'emploie à déterminer et à traiter les restrictions de mobilité qui peuvent affecter l'ensemble des structures composant le corps humain. Toute perte de mobilité des différents systèmes fonctionnels peut provoquer un déséquilibre de l'état de santé. Ainsi que des difficultés a s'adapter de manière optimal a son environnement extérieur." </p> 
                 </div>      <!-- Définition de l'Ostéopathie -->
-                    
+                <div class="col-md-6 text-center">
+                <p class="histoire">VIDEO </p> 
+                </div>      
             </div>
         </div>
     </div>
