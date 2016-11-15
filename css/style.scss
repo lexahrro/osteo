@@ -80,10 +80,6 @@ p {
     transform: translate3d(0px, 0px, 0px); }
 }
 
-.hideme
-{
-  opacity:0;
-}
 
 .imgcenter{
   margin: 0 auto;
@@ -181,6 +177,11 @@ p {
   color: black;
   font-size: 20px;
 }
+
+.navbar-inverse .navbar-nav>li>a .active {
+  border-bottom:3px #FFF solid;
+}
+
 
 
 /* ------------------- 4 colonnes animées dr et g (section 2) ----------------------- */
@@ -411,27 +412,42 @@ footer{
   color: black;
 }
 
-.midnightHeader.black .navbar-brand, .midnightHeader.black .navbar-nav > li > a {
-  color: #fff;
+.midnightHeader.default .navbar-brand, .midnightHeader.default .navbar-nav > li > a {
+  color: #000;
+  &:hover{
+    color: #006dd0;
+  }
 }
+
 
 .midnightHeader.black {
    background-color: #000000;
-   color: white;
  }
-.midnightHeader.black .navbar-brand, .midnightHeader.black .navbar-nav > li > a {
-  color: #fff;
+.midnightHeader.black .navbar-brand, .midnightHeader.black .navbar-nav > li > a{
+  color: #006dd0;
+  &:hover{
+    color: #fff;
+  }
+
 }
 
 .midnightHeader.white {
-  background-color: #c4ffea;
+  background-color: #fef6ff;
   color: white;
+
 }
 .midnightHeader.white .navbar-brand, .midnightHeader.white .navbar-nav > li > a {
-  color: #fff;
+  color: #000;
+  &:hover{
+    color: #006dd0;
+  }
 }
 
 
+ul li.active a {
+  border-top: 3px solid #333;
+  color: #333;
+}
 /* --------------------------- Contact ------------------------- */
 input.form-control{
   background-color: #fff;

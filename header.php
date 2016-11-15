@@ -14,7 +14,51 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(document).on("scroll", onScroll);
+
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                $(document).off("scroll");
+
+                $('a').each(function () {
+                    $(this).removeClass('active');
+                })
+                $(this).addClass('active');
+
+                var target = this.hash;
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top+2
+                }, 500, 'swing', function () {
+                    window.location.hash = target;
+                    $(document).on("scroll", onScroll);
+                });
+            });
+        });
+
+        function onScroll(event){
+            var scrollPosition = $(document).scrollTop();
+            $('nav a').each(function () {
+                var currentLink = $(this);
+                var refElement = $(currentLink.attr("href"));
+                if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+                    $('nav ul li a').removeClass("active");
+                    currentLink.addClass("active");
+                }
+                else{
+                    currentLink.removeClass("active");
+                }
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -34,10 +78,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a class="active" href="#sec">Accueil</a>
+                    </li>
+                    <li>
                         <a href="#section2">Présentation</a>
                     </li>
                     <li>
-                        <a href="#section3">Spécialités</a>
+                        <a href="#section3">Domaines</a>
                     </li>
                     <li>
                         <a href="#section4">Honoraires</a>

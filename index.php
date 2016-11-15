@@ -33,16 +33,16 @@
 </section>
 
 <!-- Content Section -->
-<section id="section3" class="section3 section-margin hideme" data-midnight="white">
+<section id="section3" class="section3 section-margin" data-midnight="white">
     <div class="container">
-        <div class="row">
+        <div class="row wow fadeIn">
             <div class="col-lg-12 text-center">
                 <h1 class="section-heading">DOMAINES</h1>
                 <hr class="blackhr">
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
-        <div class="row rowspe">
+        <div class="row rowspe wow bounceInLeft">
             <div class="col-md-4 text-center">
                 <img class="img-responsive imgcenter" src="img/bebe.png" alt="">
                 <h3>NOURISSONS</h3>
@@ -59,7 +59,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
-        <div class="row rowspe">
+        <div class="row rowspe wow bounceInRight">
             <div class="col-md-4 text-center">
                 <img class="img-responsive imgcenter" src="img/homme.png" alt="">
                 <h3>ADULTES</h3>
@@ -85,12 +85,12 @@
 <!-- Content Section -->
 <div class="parallax1">
     <div class="conparallax">
-<section id="section4" class="section4 section-margin hideme">
+<section id="section4" class="section4 section-margin hideme" data-midnight="black">
     <div class="container">
 
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="section-heading">SKILLS</h1>
+                <h1 class="section-heading">HONORAIRES</h1>
                 <hr class="whitehr">
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
@@ -128,7 +128,7 @@
 
 <!-- Footer -->
 <footer id="footer">
-    <div class="container conmail">
+    <div class="container conmail" data-midnight="black">
         <div class="row">
         </div>
         <div class="row">
@@ -174,36 +174,6 @@
 </footer>
 
 
-<script>$(function(){  // $(document).ready shorthand
-    $('.monster').fadeIn('slow');
-});
-
-$(document).ready(function() {
-
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-
-                $(this).animate({'opacity':'1'},1000);
-
-            }
-
-        });
-
-    });
-
-});</script>
-
-
-
 
 <script type="text/javascript" src="js/midnight.jquery.min.js"></script>
 <script>
@@ -215,6 +185,11 @@ $(document).ready(function() {
 
     });
 </script>
+
+
+
+
+
 
 </body>
 
