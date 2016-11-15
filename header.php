@@ -15,6 +15,8 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/wow.js"></script>
     <script>

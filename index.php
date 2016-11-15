@@ -28,17 +28,31 @@
                 <hr class="blackhr">
             </div>
             </div>
-            <div class="row">
+            <div class="row rowspe">
                 <div class="col-md-6 text-center">
                 <p class="histoire">L'ostéopathie est une méthode de soins curative et préventive qui s'emploie à déterminer et à traiter les restrictions de mobilité qui peuvent affecter l'ensemble des structures composant le corps humain. Toute perte de mobilité des différents systèmes fonctionnels peut provoquer un déséquilibre de l'état de santé. Ainsi que des difficultés a s'adapter de manière optimal a son environnement extérieur." </p> 
                 </div>      <!-- Définition de l'Ostéopathie -->
                 <div class="col-md-6 text-center">
-                <p class="histoire">VIDEO </p> 
+                    <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube">
                 </div>      
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+        $('.popup-youtube').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+
+            fixedContentPos: false
+        });
+    });
+</script>
 
 <!-- Content Section -->
 <section id="section3" class="section3 section-margin" data-midnight="white">
