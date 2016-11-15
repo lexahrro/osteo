@@ -143,9 +143,11 @@ p {
 }
 
 .btn-head {
-  color: #fff;
-  background-color: transparent;
-  border: 5px solid white;
+  font-size: 26px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid #ffffff;
   margin-bottom: 80px;
   border-radius: 0;
   padding: 10px 60px;
@@ -157,7 +159,13 @@ p {
 }
 
 .btn-head:hover {
-  background-color: #006dd0;
+  background-color: #30628f;
+  color: white;
+  border: 5px solid white;
+}
+
+.btn-head:active {
+  background-color: #30628f;
   color: white;
   border: 5px solid white;
 }
@@ -239,65 +247,6 @@ p {
 .section-margin {
   padding-bottom: 80px;
   padding-top: 80px;
-}
-
-/* ------------------- Circles ------------------- */
-.prec {
-  top: 30px;
-  position: relative;
-  font-size: 30px;
-  color: black;
-}
-
-.circle {
-  position: relative;
-  top: 5px;
-  left: 5px;
-  text-align: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background-color: #E6F4F7;
-}
-
-.active-border20 {
-  position: relative;
-  text-align: center;
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
-  background-color: #39B4CC;
-  background-image: linear-gradient(162deg, transparent 50%, #A2ECFB 50%), linear-gradient(90deg, #A2ECFB 50%, transparent 50%);
-}
-
-.active-border40 {
-  position: relative;
-  text-align: center;
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
-  background-color: #39B4CC;
-  background-image: linear-gradient(230deg, transparent 50%, #A2ECFB 50%), linear-gradient(90deg, #A2ECFB 50%, transparent 50%);
-}
-
-.active-border60 {
-  position: relative;
-  text-align: center;
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
-  background-color: #39B4CC;
-  background-image: linear-gradient(270deg, transparent 50%, #A2ECFB 50%), linear-gradient(90deg, #A2ECFB 50%, transparent 50%);
-}
-
-.active-border80 {
-  position: relative;
-  text-align: center;
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
-  background-color: #39B4CC;
-  background-image: linear-gradient(230deg, transparent 50%, #A2ECFB 50%), linear-gradient(90deg, #A2ECFB 50%, transparent 50%);
 }
 
 .parallax1 {
@@ -407,7 +356,7 @@ footer {
 }
 
 .midnightHeader.default .navbar-brand:hover, .midnightHeader.default .navbar-nav > li > a:hover {
-  color: #006dd0;
+  color: #30628f;
 }
 
 .midnightHeader.black {
@@ -415,7 +364,7 @@ footer {
 }
 
 .midnightHeader.black .navbar-brand, .midnightHeader.black .navbar-nav > li > a {
-  color: #006dd0;
+  color: #30628f;
 }
 
 .midnightHeader.black .navbar-brand:hover, .midnightHeader.black .navbar-nav > li > a:hover {
@@ -432,7 +381,7 @@ footer {
 }
 
 .midnightHeader.white .navbar-brand:hover, .midnightHeader.white .navbar-nav > li > a:hover {
-  color: #006dd0;
+  color: #30628f;
 }
 
 ul li.active a {
@@ -499,67 +448,6 @@ textarea.form-control {
 
 .histoire {
   margin-top: 60px;
-}
-
-.cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background-color: black;
-  width: 100%;
-  height: 600px;
-}
-
-.cover .hi {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 24px;
-  line-height: 26px;
-  text-align: center;
-}
-
-.cover .hi span {
-  color: #ff0;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.cover .hi em {
-  font-style: normal;
-}
-
-.cover .hi em.hidden {
-  display: none;
-}
-
-.tv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-}
-
-.tv .screen {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  margin: auto;
-  opacity: 0;
-  transition: opacity .5s;
-}
-
-.tv .screen.active {
-  opacity: 1;
 }
 
 .hrmobile {
@@ -654,9 +542,4 @@ textarea.form-control {
 
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
-}
-
-.popup-youtube {
-  text-decoration: none;
-  color: #000;
 }
