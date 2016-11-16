@@ -726,3 +726,8 @@ textarea.form-control {
 #bodyContent {
   color: #000;
 }
+
+.margin-fa {
+  font-size: 25px;
+  margin-right: 5px;
+}

@@ -11,8 +11,8 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center logo">
-                <button class="btn btn-head" type="submit"><i class="fa fa-phone" aria-hidden="true"></i> 01 41 16 15 15</button>
-                <button class="btn btn-head" type="submit"><i class="fa fa-calendar" aria-hidden="true"></i> RDV EN LIGNE</button>
+                <button class="btn btn-head" type="submit"><i class="fa fa-phone margin-fa" aria-hidden="true"></i> 01 41 16 15 15</button>
+                <button class="btn btn-head" type="submit"><i class="fa fa-calendar margin-fa" aria-hidden="true"></i> RDV EN LIGNE</button>
             </div>
         </div>
     </div>
