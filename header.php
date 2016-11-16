@@ -64,7 +64,7 @@
             var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
-                '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+                '<h1 id="firstHeading" class="firstHeading">Cabinet Ostéopathie</h1>'+
                 '<div id="bodyContent">'+
                 '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
                 'sandstone rock formation in the southern part of the '+
@@ -85,7 +85,7 @@
 
             // Define the image to use for the map marker (58 x 44 px)
 
-            var image = 'http://uploads.webflow.com/537f700d5bb0a27f34444d0c/53b054015eb95f024f4d7c5e_map_marker.png';
+            var image = 'img/localisation.png';
 
             // Define the Lattitude and Longitude for the map location
 

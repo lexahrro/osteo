@@ -11,8 +11,8 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center logo">
-                <button class="btn btn-head" type="submit">01 41 16 15 15</button>
-                <button class="btn btn-head" type="submit">RDV EN LIGNE</button>
+                <button class="btn btn-head" type="submit"><i class="fa fa-phone" aria-hidden="true"></i> 01 41 16 15 15</button>
+                <button class="btn btn-head" type="submit"><i class="fa fa-calendar" aria-hidden="true"></i> RDV EN LIGNE</button>
             </div>
         </div>
     </div>
@@ -59,6 +59,15 @@
             </div>
             </div>
     </div>
+
+    <a class="popup-with-zoom-anim" href="#small-dialog">Open with fade-zoom animation</a><br>
+    <a class="popup-with-move-anim" href="#small-dialog">Open with fade-slide animation</a>
+
+    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+        <h1>Dialog example</h1>
+        <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</p>
+    </div>
 </section>
 
 <script>
@@ -71,6 +80,42 @@
             preloader: false,
 
             fixedContentPos: false
+        });
+    });
+
+    // Ajout pop-up pour le texte
+
+    $(document).ready(function() {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+        });
+
+        $('.popup-with-move-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-slide-bottom'
         });
     });
 </script>
@@ -199,8 +244,9 @@
             </div>
         </div>
         </div>
-
+    <div class="hr-blue"></div>
     <div id="map" data-midnight="black"></div>
+    <div class="hr-blue"></div>
     <div class="container">
         <div class="row social">
             <div class="col-md-3 col-sm-3 col-xs-6 text-center">
