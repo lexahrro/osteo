@@ -4,8 +4,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+
+    <meta name="description" content="Arthur Conduché, Ostéopathe à Paris. Ostéopathie générale, pour sportifs, femmes enceintes, enfants, adultes, seniors et nourissons.">
+    <meta name="keywords" content="mots clefs">
+    <meta name="author" content="Alexandre HERRERO - Marwan Diridollou”>
+    <meta name="robots" content="index">
+    <meta name="Indentifier-URL" content="url du site">
+
+    <title>Arthur Conduché - Ostéopathie à Paris</title>
+
+    <!-- Icon android/ iOS -->
+
+    <link href="http://www.yoursite.com/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="http://www.yoursite.com/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+    <link href="http://www.yoursite.com/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+    <link href="http://www.yoursite.com/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="http://www.yoursite.com/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="http://www.yoursite.com/icon-hires.png" rel="icon" sizes="192x192" />
+    <link href="http://www.yoursite.com/icon-normal.png" rel="icon" sizes="128x128" />
+
+
+    <!-- Dublin Core -->
+
+    <meta name="DC.title" content="Arthur Conduché - Ostéopathie à Paris">
+    <meta name="DC.creator" content="Alexandre HERRERO - Marwan Diridollou">
+    <meta name="DC.subject" content="mots clefs" />
+    <meta name="DC.description" content="Arthur Conduché, Ostéopathe à Paris. Ostéopathie générale, pour sportifs, femmes enceintes, enfants, adultes, seniors et nourissons." />
+    <meta name="DC.publisher" content="Alexandre HERRERO - Marwan Diridollou">
+    <meta name="DC.contributor" content="Contributeur">
+    <meta name="DC.date" content="22/11/2016">
+    <meta name="DC.type" content="Site vitrine">
+    <meta name="DC.format" content="website">
+    <meta name="DC.identifier" content="url du site">
+    <meta name="DC.language" content="fr-FR">
+    <meta name="DC.coverage" content="World">
+    <meta name="DC.rights" content="&copy; Alexandre HERRERO - Marwan Diridollou">
+
+    <!-- END Dublin Core -->
+
+
+
+    <!-- Open Graph-->
+
+    <meta property="og:title" content="Arthur Conduché - Ostéopathie à Paris">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="url du site">
+    <meta property="og:image" content="img/head.jpg">
+    <meta property="og:site_name" content="Arthur Conduché - Ostéopathie à Paris">
+    <meta property="og:description" content="Arthur Conduché, Ostéopathe à Paris. Ostéopathie générale, pour sportifs, femmes enceintes, enfants, adultes, seniors et nourissons.">
+
+<!-- END Open Graph-->
+
     <title>Ostéopathie - A. Conduche</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- jQuery -->
@@ -20,6 +69,7 @@
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/wow.js"></script>
+
 
     <script type="text/javascript">
 
@@ -39,7 +89,7 @@
                 scrollwheel: false,
                 // The latitude and longitude to center the map (always required)
 
-                center: new google.maps.LatLng(48.89585, 2.2364), // Nova Scotia
+                center: new google.maps.LatLng(48.89585, 2.2364),
 
                 // How you would like to style the map.
                 // This is where you would paste any style found on [Snazzy Maps][1].

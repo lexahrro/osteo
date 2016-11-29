@@ -2,11 +2,11 @@
 
     <!--- Header sous menu ---->
 <section id="sec" class="sec">
-    <div id="conhead" class="container-fluid conhead">
+    <div id="conhead" class="container-fluid conhead" title="Image header">
         <div class="row">
             <div class="col-md-12 text-center">
                 <a class="link link--ilin logo" href="#"><span>A</span><span>C</span></a>
-                <p class="lead section-lead logo"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></p>
+                <h1 class="logo"><span>A. CONDUCHÉ - OSTEOPATHE</span></h1>
             </div>
         </div>
         <div class="row">
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                  <div class="col-lg-12 text-center">
-                <h1 class="section-heading">QU'EST-CE QUE L'OSTEOPATHIE ?</h1>
+                <h2 class="section-heading">QU'EST-CE QUE L'OSTEOPATHIE ?</h2>
                 <hr class="blackhr">
             </div>
             </div>
@@ -33,7 +33,7 @@
                 <p class="histoire">Apparue en 1892 aux Etats-Unis l’ostéopathie de Andrew Taylor Still est une thérapie purement manuelle visant à déterminer et traiter les restrictions de mobilité du corps. En effet avec la main comme outil d’analyse et de soin l’ostéopathe recherche l’équilibre physiologique du patient en le prenant en compte dans sa globalité. C’est une science basée sur l’anatomie, la physiologie et la pathologie qui permet de rétablir le bon fonctionnement corporel de l’individu. </p>
                 </div>      <!-- Définition de l'Ostéopathie -->
                 <div class="col-md-5 text-center">
-                    <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube">
+                    <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube" alt="lancement video">
                 </div>      
             </div>
             <div class="row">
@@ -50,7 +50,7 @@
         </div>
             <div class="row">
                 <div class="col-md-5 text-center">
-                    <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube">
+                    <img href="https://www.youtube.com/watch?v=J5NaRdyBrIw" src="img/macbook.png" class="img-responsive center-block popup-youtube" alt="lancement video">
                 </div>
                 <div class="col-md-7">
                     <p class="histoire">Apparue en 1892 aux Etats-Unis l’ostéopathie de Andrew Taylor Still est une thérapie purement manuelle visant à déterminer et traiter les restrictions de mobilité du corps. En effet avec la main comme outil d’analyse et de soin l’ostéopathe recherche l’équilibre physiologique du patient en le prenant en compte dans sa globalité. C’est une science basée sur l’anatomie, la physiologie et la pathologie qui permet de rétablir le bon fonctionnement corporel de l’individu. </p>
@@ -65,7 +65,7 @@
 
     <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
     <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-        <h1>Dialog example</h1>
+        <h2>Dialog example</h2>
         <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</p>
     </div>
 </section>
@@ -125,41 +125,41 @@
     <div class="container">
         <div class="row wow fadeIn">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading">DOMAINES</h1>
+                <h2 class="section-heading">DOMAINES</h2>
                 <hr class="blackhr">
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
         <div class="row rowspe wow bounceInLeft">
             <div class="col-md-4 text-center">
-                <img class="img-responsive imgcenter" src="img/bebe.png" alt="">
+                <img class="img-responsive imgcenter" src="img/bebe.png" alt="nourisson">
                 <h3>NOURISSONS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-md-4 text-center">
-                <img class="img-responsive imgcenter" src="img/enfant.png" alt="">
+                <img class="img-responsive imgcenter" src="img/enfant.png" alt="enfant">
                 <h3>ENFANTS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-md-4 text-center">
-                <img class="img-responsive imgcenter" src="img/enceinte.png" alt="">
+                <img class="img-responsive imgcenter" src="img/enceinte.png" alt="femme enceinte">
                 <h3>FEMMES ENCEINTES</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
         <div class="row rowspe wow bounceInRight">
             <div class="col-md-4 text-center">
-                <img class="img-responsive imgcenter" src="img/homme.png" alt="">
+                <img class="img-responsive imgcenter" src="img/homme.png" alt="adulte">
                 <h3>ADULTES</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-md-4 text-center">
-                <img class="img-responsive imgcenter" src="img/sportif.png" alt="">
+                <img class="img-responsive imgcenter" src="img/sportif.png" alt="sportif">
                 <h3>SPORTIFS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-md-4 text-center">
-                <img class="img-responsive imgcenter" src="img/age.png" alt="">
+                <img class="img-responsive imgcenter" src="img/age.png" alt="senior">
                 <h3>SENIORS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
@@ -171,14 +171,14 @@
 
 
 <!-- Content Section -->
-<div class="parallax1">
+<div class="parallax1" title="Image parallax">
     <div class="conparallax">
 <section id="section4" class="section4 section-margin hideme" data-midnight="black">
     <div class="container">
 
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="section-heading">HONORAIRES</h1>
+                <h2 class="section-heading">HONORAIRES</h2>
                 <hr class="whitehr">
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
@@ -221,7 +221,7 @@
         </div>
         <div class="row">
         <div class="col-md-6">
-            <h1 class="section-heading">HORAIRES ET CONTACT</h1>
+            <h2 class="section-heading">HORAIRES ET CONTACT</h2>
             <hr class="whitehr">
             <p class="section-paragraph">Pole Léonard de Vinci - 12 Avenue Léonard de Vinci, 92400 Courbevoie</p>
         </div>
