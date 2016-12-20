@@ -167,6 +167,9 @@
     </div>
 </section>
 
+
+
+
 <section id="portfolio" class="section3 section-margin" data-midnight="white">
     <div class="container">
         <div class="row wow fadeIn">
@@ -186,7 +189,7 @@
                     </div>
                     <img class="img-responsive imgcenter" src="img/bebe.png" alt="senior">
                     <h3>NOURISSONS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Un bilan dès les premiers jours de vie.</p>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item text-center">
@@ -198,7 +201,7 @@
                     </div>
                     <img class="img-responsive imgcenter" src="img/enfant.png" alt="senior">
                     <h3>ENFANTS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Une croissance en plein harmonie.</p>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item text-center">
@@ -210,7 +213,7 @@
                     </div>
                     <img class="img-responsive imgcenter text-center" src="img/enceinte.png" alt="senior">
                     <h3>FEMMES ENCEINTES</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p> Soyez prête pour accueillir votre bébé.</p>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item text-center">
@@ -222,7 +225,7 @@
                     </div>
                     <img class="img-responsive imgcenter" src="img/homme.png" alt="adulte">
                     <h3>ADULTES</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Améliorez votre qualité de vie.</p>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item text-center">
@@ -234,7 +237,7 @@
                     </div>
                     <img class="img-responsive imgcenter" src="img/sportif.png" alt="senior">
                     <h3>SPORTIFS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Révélez votre potentiel.</p>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item text-center">
@@ -246,7 +249,7 @@
                     </div>
                     <img class="img-responsive imgcenter" src="img/age.png" alt="senior">
                     <h3>SENIORS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Ne laissez pas l'âge être un obstacle dans votre quotidien.</p>
                 </a>
             </div>
         </div>
@@ -305,7 +308,7 @@
 
 
 
-
+<!-- Modal nourrisson-->
 
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -319,24 +322,61 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2 class="text-center" >Nourrisson</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
+
+                                        <section>
+                                            <div class="container">
+                                                <div class="row">
+                                                     <div class="col-lg-12 text-center">
+                                                        <h2 class="section-heading">ENFANTS</h2>
+                                                     </div>
+                                                </div>
+                                                <hr class="blackhr">
+                                                <div class="row">
+                                                     <div class="col-md-7">
+                                                        <p style="text-align: justify;">Durant la période de l’enfance et de l’adolescence l’enfant est en période d’apprentissage et s’approprie son corps. Il découvre les possibilités et les capacités de son corps dans l’effort par la pratique sportive qui peut-être parfois soutenue, mais c’est aussi l’âge des premières chutes.
+                                                                                        Même si le corps de l’enfant offre une grande résistance et reste souple, il est soumis à différentes contraintes comme le port du cartable ou les divers traumatismes pouvant altérer le développement  de la croissance dans les meilleures conditions.
+                                                                                        C’est pourquoi la prise en charge ostéopathique permet de rétablir les déséquilibres qui peuvent se fixer durablement. </p> 
+                                                     </div>
+                                                     <div class="col-md-5 text-center">
+                                                        <img src="img/enfant1.jpg" class="img-responsive center-block" alt="image de nourrisson">
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </section>
+
+                                            
+                                        <section>
+                                            <div class="container">
+                                                <div class="row">
+                                                     <div class="col-lg-12 text-center">
+                                                        <h2 class="section-heading">QUAND CONSULTER SON OSTÉOPATHE ?</h2>
+                                                     </div>
+                                                </div>
+                                                <hr class="blackhr">
+
+                                                <div class="row">
+                                                     <div class="col-lg-5 text-center">
+                                                        <img src="img/enfants2.jpg" class="img-responsive center-block" alt="image de nourrisson">
+                                                     </div>
+                                                     <div class="col-md-7">
+                                                        <ul>
+                                                            <li>Bilan préventif pour le suivi de la croissance afin d’optimiser son développement</li>
+                                                            <li>Scolioses/Hyperlordoses/Hypercyphosesprévenir et freiner leurs évolutions</li>
+                                                            <li>Contrôle de l’influence des semelles orthopédiques sur la posture</li>
+                                                            <li>Troubles ORL chroniques : otites et/ou sinusites à répétitions/maux de tête (céphalées ou migraines)/troubles oculaires (douleur des yeux après l’école, sensation de fatigue, strabisme, problème de convergence ou divergence).</li>
+                                                            <li>Troubles digestifs fonctionnels : Diarrhée/constipation/ballonnements/vomissements</li>
+                                                            <li>Limiter les douleurs dû au port d’appareil dentaire (bagues, casques de nuit…)</li>
+                                                            <li>Troubles de l’attention et du comportement : Hyperactivité/déficit de concentration/difficultés ou retard d’acquisition psychomotrice </li>
+                                                        </ul>
+                                                     </div>
+                                                </div>  
+                                            </div>
+                                        </section> 
+
+
+
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
@@ -344,6 +384,8 @@
         </div>
     </div>
 </div>
+
+
 <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
