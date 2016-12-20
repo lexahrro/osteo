@@ -562,8 +562,8 @@
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
                     <h3 itemprop="adress" class="coord">75 rue de Rochechouart 75009 Paris</h3>
                     <p><i class="fa fa-subway"></i> Métro 2 et 4 Arrêt Barbès-Rochechouart</p>
-                    <p><i class="fa fa-subway"></i> Métro 7 Arrêt Cadet/p>
-                    <h4 class="coord">Bus 85 arrêt Condorcet-Trudaine</h4>
+                    <p><i class="fa fa-subway"></i> Métro 7 Arrêt Cadet</p>
+                    <p><i class="fa fa-bus"></i> Bus 85 arrêt Condorcet-Trudaine</p>
                     <h3 class="coord">86 avenue de Paris 94300 Paris</h3>
                     <h4 class="coord">Métro 1 arrêt Bérault (sortie n°2 Place Bérault)</h4>
                     <h4 class="coord">RER A arrêt Vincennes (sortie n°2 Avenue de la République)</h4>
