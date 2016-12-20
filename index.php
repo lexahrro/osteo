@@ -262,7 +262,7 @@
 
         <div class="row text-center">
             <div class="col-md-12">
-                <h2 class="section-heading">HONORAIRES</h2>
+                <h2 class="section-heading">coord</h2>
                 <hr class="whitehr">
                 <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
@@ -560,18 +560,17 @@
                 <h2 class="section-heading">HORAIRES ET CONTACT</h2>
                 <hr class="whitehr">
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
-                    <h3 itemprop="adress" class="honoraires">75 rue de Rochechouart 75009 Paris</h3>
-
-                    <h4 class="honoraires">Métro 2 et 4 arrêt Barbes-Rochechouart</h4>
-                    <h4 class="honoraires">Métro 7 arrêt Cadet</h4>
-                    <h4 class="honoraires">Bus 85 arrêt Condorcet-Trudaine</h4>
-                    <h3 class="honoraires">86 avenue de Paris 94300 Paris</h3>
-                    <h4 class="honoraires">Métro 1 arrêt Bérault (sortie n°2 Place Bérault)</h4>
-                    <h4 class="honoraires">RER A arrêt Vincennes (sortie n°2 Avenue de la République)</h4>
-                    <h4 class="honoraires">Bus 325 arrêt Bérault</h4>
+                    <h3 itemprop="adress" class="coord">75 rue de Rochechouart 75009 Paris</h3>
+                    <p><i class="fa fa-subway"></i> Métro 2 et 4 Arrêt Barbès-Rochechouart</p>
+                    <p><i class="fa fa-subway"></i> Métro 7 Arrêt Cadet/p>
+                    <h4 class="coord">Bus 85 arrêt Condorcet-Trudaine</h4>
+                    <h3 class="coord">86 avenue de Paris 94300 Paris</h3>
+                    <h4 class="coord">Métro 1 arrêt Bérault (sortie n°2 Place Bérault)</h4>
+                    <h4 class="coord">RER A arrêt Vincennes (sortie n°2 Avenue de la République)</h4>
+                    <h4 class="coord">Bus 325 arrêt Bérault</h4>
                     <br>
-                    <h4 itemprop="telephone" class="honoraires">06.27.79.54.63</h4>
-                    <h4 itemprop="email" class="honoraires">conduche.osteopathe@gmail.com</h4>
+                    <h4 itemprop="telephone" class="coord">06.27.79.54.63</h4>
+                    <h4 itemprop="email" class="coord">conduche.osteopathe@gmail.com</h4>
                 </div>
             </div>
             <hr class="visible-xs hrmobile">
